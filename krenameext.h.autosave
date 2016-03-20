@@ -2,6 +2,7 @@
 #define KRENAMEEXT_H
 
 #include <QString>
+#include <QStringList>
 
 #include <stack>
 
@@ -12,6 +13,7 @@ public:
     bool run();
 private:
     bool checkDirName();
+    bool process(QStringList &);
 private:
     QString m_sRootDir;
     QString m_sOldName;

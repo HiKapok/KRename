@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include "krenameext.h"
 
 #include <QCoreApplication>
@@ -51,3 +52,13 @@ int main(int argc, char *argv[])
     return 0;
 }
 
+=======
+#include <QCoreApplication>
+
+int main(int argc, char *argv[])
+{
+    QCoreApplication a(argc, argv);
+
+    return a.exec();
+}
+>>>>>>> 36a7cba011d3a093146dba3b1bbeb75f3813b61c
