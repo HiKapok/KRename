@@ -32,10 +32,6 @@ int main(int argc, char *argv[])
 
     parser.process(app);
 
-//    bool showProgress = parser.isSet(showProgressOption);
-//    bool force = parser.isSet(forceOption);
-//    QString targetDir = parser.value(targetDirectoryOption);
-
     const QStringList argslist = parser.positionalArguments();
 
     if(argslist.length()!=3)
